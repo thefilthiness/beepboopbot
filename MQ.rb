@@ -18,7 +18,7 @@ class Rabbit
 
   def subscribe
     q.subscribe(block: true) do |info, props, body|
-      p body
+      yield(body)
     end
   end
 end

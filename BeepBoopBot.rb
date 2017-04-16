@@ -6,7 +6,13 @@ Dotenv.load
 
 class BeepBoopBot < SlackRubyBot::Bot
   mq = Rabbit.new
-  scan(/yo/) do |client, data, match|
-    mq.push('oh shit whaddit')
+  
+  scan(/lunch/i) do |client, data, match|
+    mq.push("foghorn")
   end
+
+  scan(/pickle|tickle/i) do |client, data, match|
+    mq.push("scream")
+  end
+  
 end
