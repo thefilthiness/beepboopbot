@@ -36,3 +36,4 @@ mq.subscribe do |sound_type|
     `omxplayer ./sounds/great.mp3`
 
   end
+end
