@@ -152,16 +152,84 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/waterfalls.mp3`
   end
 
-  when "waterfalls"
-      `omxplayer ./sounds/waterfalls.mp3`
-  end
-
   when "best friend"
       `omxplayer ./sounds/best friend.mp3`
   end
 
   when "quiet"
       `omxplayer ./sounds/quiet.mp3`
+  end
+
+  when "kazoo"
+      `omxplayer ./sounds/kazoo.mp3`
+  end
+
+  when "kazooo"
+      `omxplayer ./sounds/kazooo.mp3`
+  end
+
+  when "jody"
+      `omxplayer ./sounds/jody.mp3`
+  end
+
+  when "one week"
+      `omxplayer ./sounds/one week.mp3`
+  end
+
+  when "sprite"
+      `omxplayer ./sounds/sprite.mp3`
+  end
+
+  when "self destruct"
+      `omxplayer ./sounds/self destruct.mp3`
+  end
+
+  when "ducktales"
+      `omxplayer ./sounds/ducktales.mp3`
+  end
+
+  when "randy"
+      `omxplayer ./sounds/randy.mp3`
+  end
+
+  when "hottub"
+      `omxplayer ./sounds/hottub.mp3`
+  end
+
+  when "pitted"
+      `omxplayer ./sounds/pitted.mp3`
+  end
+
+  when "whapam"
+      `omxplayer ./sounds/whapam.mp3`
+  end
+
+  when "rimshot"
+      `omxplayer ./sounds/rimshot.mp3`
+  end
+
+  when "catch me"
+      `omxplayer ./sounds/catch me.mp3`
+  end
+
+  when "yup"
+      `omxplayer ./sounds/yup.mp3`
+  end
+
+  when "sad horn"
+      `omxplayer ./sounds/sad horn.mp3`
+  end
+
+  when "urkel"
+      `omxplayer ./sounds/urkel.mp3`
+  end
+
+  when "all star"
+      `omxplayer ./sounds/all star.mp3`
+  end
+
+  when "hamburger"
+      `omxplayer ./sounds/hamburger.mp3`
   end
 
 end
