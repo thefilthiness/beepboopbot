@@ -10,6 +10,13 @@ mq.subscribe do |sound_type|
 
     when "scream"
       `omxplayer ./sounds/scream.mp3`
+    
+    when "psycho"
+      `omxplayer ./sounds/psycho.mp3`
+    
+    when "birds"
+      `omxplayer ./sounds/birds.mp3`
+    
   end
 end
 
