@@ -11,5 +11,38 @@ mq.subscribe do |sound_type|
     when "scream"
       `omxplayer ./sounds/scream.mp3`
   end
+  
+  when "apparently"
+      `omxplayer ./sounds/apparently.mp3`
+  end
+
+  when "brat"
+      `omxplayer ./sounds/baby.mp3`
+  end
+
+  when "birds"
+      `omxplayer ./sounds/birds.mp3`
+  end
+
+  when "powerball"
+      `omxplayer ./sounds/powerball.mp3`
+  end
+
+  when "psycho"
+      `omxplayer ./sounds/psycho.mp3`
+  end
+
+  when "brat"
+      `omxplayer ./sounds/brat.mp3`
+  end
+
+  when "ting"
+      `omxplayer ./sounds/ting.mp3`
+  end
+
+  when "great"
+      `omxplayer ./sounds/great.mp3`
+  end
+
 end
 
