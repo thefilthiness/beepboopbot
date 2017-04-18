@@ -13,6 +13,9 @@ class BeepBoopBot < SlackRubyBot::Bot
 
   scan(/pickle|tickle/i) do |client, data, match|
     mq.push("scream")
+    
+      scan(/scary/i) do |client, data, match|
+    mq.push("psycho")
   end
   
 end
