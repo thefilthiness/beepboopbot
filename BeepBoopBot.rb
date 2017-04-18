@@ -155,7 +155,7 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("jody")
   end
   
-    scan(/one week/i) do |client, data, match|
+    scan(/one week|its been|it's been/i) do |client, data, match|
     mq.push("one week")
   end
   
@@ -188,11 +188,15 @@ class BeepBoopBot < SlackRubyBot::Bot
   end
   
     scan(/rimshot|joke/i) do |client, data, match|
-    mq.push("whapam")
+    mq.push("rimshot")
   end
   
-    scan(/catch/i) do |client, data, match|
-    mq.push("catch")
+    scan(/catch me/i) do |client, data, match|
+    mq.push("catch me")
+  end
+  
+      scan(/yup/i) do |client, data, match|
+    mq.push("yup")
   end
   
     scan(/sad horn|fail|the price is/i) do |client, data, match|
@@ -203,7 +207,7 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("urkel")
   end
   
-    scan(/somebody|all star/i) do |client, data, match|
+    scan(/somebody once|all star/i) do |client, data, match|
     mq.push("all star")
   end
   
