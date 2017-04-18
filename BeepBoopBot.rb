@@ -112,7 +112,7 @@ class BeepBoopBot < SlackRubyBot::Bot
   end
   
     scan(/r2d2|artoo/i) do |client, data, match|
-    mq.push("ar2")
+    mq.push("r2")
   end
   
     scan(/rain/i) do |client, data, match|
