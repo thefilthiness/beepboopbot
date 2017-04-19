@@ -1,5 +1,6 @@
 require 'slack-ruby-bot/rspec'
 require 'bunny-mock'
+require 'rspec'
 
 require_relative '../BeepBoopBot.rb'
 require_relative '../booper.rb'
