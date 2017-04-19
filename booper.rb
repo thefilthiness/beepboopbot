@@ -87,7 +87,7 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/georgie.mp3`
 
   when "exsqueeze"
-      `omxplayer ./sounds/exsqueeze.mp3`
+      `omxplayer ./sounds/exsqueeze me.mp3`
 
   when "photograph"
       `omxplayer ./sounds/photograph.mp3`
@@ -187,6 +187,10 @@ mq.subscribe do |sound_type|
 
   when "cold"
       `omxplayer ./sounds/cold.mp3`
-      
+    
+  when "somebody"
+      `omxplayer ./sounds/somebody.mp3`
+
   end
+
 end
