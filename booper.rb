@@ -41,7 +41,7 @@ mq.subscribe do |sound_type|
   end
 
   when "great"
-      `omxplayer ./sounds/well it was great.mp3`
+      `omxplayer ./sounds/great.mp3`
   end
 
   when "apparently"
@@ -92,10 +92,6 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/hmm.mp3`
   end
 
-  when "not at all"
-      `omxplayer ./sounds/not at all.mp3`
-  end
-
   when "fart"
       `omxplayer ./sounds/fart.mp3`
   end
@@ -128,8 +124,8 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/awhile.mp3`
   end
 
-  when "ar2"
-      `omxplayer ./sounds/ar2.mp3`
+  when "r2"
+      `omxplayer ./sounds/r2.mp3`
   end
 
   when "chocolate rain"
@@ -152,8 +148,8 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/waterfalls.mp3`
   end
 
-  when "best friend"
-      `omxplayer ./sounds/best friend.mp3`
+  when "special friend"
+      `omxplayer ./sounds/special friend.mp3`
   end
 
   when "quiet"
@@ -164,8 +160,20 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/kazoo.mp3`
   end
 
-  when "kazooo"
+  when "kazoo jam"
       `omxplayer ./sounds/kazooo.mp3`
+  end
+
+  when "epona"
+      `omxplayer ./sounds/epona.mp3`
+  end
+
+  when "toasty"
+      `omxplayer ./sounds/toasty.mp3`
+  end
+
+  when "kazoo jam 2"
+      `omxplayer ./sounds/kazoo jam 2.mp3`
   end
 
   when "jody"
@@ -178,10 +186,6 @@ mq.subscribe do |sound_type|
 
   when "sprite"
       `omxplayer ./sounds/sprite.mp3`
-  end
-
-  when "self destruct"
-      `omxplayer ./sounds/self destruct.mp3`
   end
 
   when "ducktales"
@@ -231,6 +235,19 @@ mq.subscribe do |sound_type|
   when "hamburger"
       `omxplayer ./sounds/hamburger.mp3`
   end
+
+  when "jody slow"
+      `omxplayer ./sounds/jody slow.mp3`
+  end
+
+  when "fun fun"
+      `omxplayer ./sounds/fun fun.mp3`
+  end
+
+  when "cold"
+      `omxplayer ./sounds/cold.mp3`
+  end
+
 
 end
 
