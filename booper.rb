@@ -187,10 +187,9 @@ mq.subscribe do |sound_type|
 
   when "cold"
       `omxplayer ./sounds/cold.mp3`
-    
+
   when "somebody"
       `omxplayer ./sounds/somebody.mp3`
 
   end
-
 end
