@@ -99,7 +99,7 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("georgie")
   end
   
-    scan(/exsqueeze/i) do |client, data, match|
+    scan(/exsqueeze|jar jar/i) do |client, data, match|
     mq.push("exsqueeze")
   end
   
@@ -119,7 +119,7 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("chocolate rain")
   end
   
-    scan(/buzz/i) do |client, data, match|
+    scan(/buzz|woof/i) do |client, data, match|
     mq.push("buzz")
   end
   
@@ -139,16 +139,20 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("kazoo")
   end
   
-    scan(/best friend/i) do |client, data, match|
-    mq.push("best friend")
+    scan(/special friend/i) do |client, data, match|
+    mq.push("special friend")
   end
   
     scan(/quiet/i) do |client, data, match|
     mq.push("quiet")
   end
   
-    scan(/kazooo|kazoo song|jam/i) do |client, data, match|
-    mq.push("kazooo")
+    scan(/kazoo jam|kazoo song/i) do |client, data, match|
+    mq.push("kazoo jam")
+  end
+  
+    scan(/kazoo jam 2|kazoo song 2/i) do |client, data, match|
+    mq.push("kazoo jam 2")
   end
   
     scan(/jody/i) do |client, data, match|
@@ -191,15 +195,15 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("rimshot")
   end
   
-    scan(/catch me/i) do |client, data, match|
+    scan(/catch me|how about dat|bout dat/i) do |client, data, match|
     mq.push("catch me")
   end
   
-      scan(/yup/i) do |client, data, match|
+      scan(/yup|yep/i) do |client, data, match|
     mq.push("yup")
   end
   
-    scan(/sad horn|fail|the price is/i) do |client, data, match|
+    scan(/sad horn|fail|the price is|horn/i) do |client, data, match|
     mq.push("sad horn")
   end
   
@@ -214,5 +218,25 @@ class BeepBoopBot < SlackRubyBot::Bot
     scan(/hamburger/i) do |client, data, match|
     mq.push("hamburger")
   end
+  
+    scan(/jody slow/i) do |client, data, match|
+    mq.push("jody slow")
+  end
+  
+    scan(/fun fun/i) do |client, data, match|
+    mq.push("fun fun")
+  end
 
+    scan(/toasty/i) do |client, data, match|
+    mq.push("toasty")
+  end
+  
+    scan(/epona/i) do |client, data, match|
+    mq.push("epona")
+  end
+  
+    scan(/cold/i) do |client, data, match|
+    mq.push("cold")
+  end
+  
 end
