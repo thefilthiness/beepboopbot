@@ -35,7 +35,7 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("psycho")
   end
   
-    scan(/pheasant|glass/i) do |client, data, match|
+    scan(/pheasant|glass|ting/i) do |client, data, match|
     mq.push("ting")
   end
   
@@ -95,7 +95,7 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("oh man")
   end
   
-    scan(/georgie|i.t./i) do |client, data, match|
+    scan(/georgie/i) do |client, data, match|
     mq.push("georgie")
   end
   
@@ -147,11 +147,11 @@ class BeepBoopBot < SlackRubyBot::Bot
     mq.push("quiet")
   end
   
-    scan(/kazoo jam|kazoo song/i) do |client, data, match|
+    scan(/kjam/i) do |client, data, match|
     mq.push("kazoo jam")
   end
   
-    scan(/kazoo jam 2|kazoo song 2/i) do |client, data, match|
+    scan(/kjam2/i) do |client, data, match|
     mq.push("kazoo jam 2")
   end
   
@@ -212,14 +212,14 @@ class BeepBoopBot < SlackRubyBot::Bot
   end
   
     scan(/somebody once|all star/i) do |client, data, match|
-    mq.push("all star")
+    mq.push("somebody")
   end
   
     scan(/hamburger/i) do |client, data, match|
     mq.push("hamburger")
   end
   
-    scan(/jody slow/i) do |client, data, match|
+    scan(/jslow/i) do |client, data, match|
     mq.push("jody slow")
   end
   
